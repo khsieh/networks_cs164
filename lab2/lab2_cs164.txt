@@ -1,0 +1,31 @@
+Q1.1) the ip of where the server is at for the target location.
+Q1.2) the name used to specify a alias name to the domain name
+Q1.3) it's the host's ip address
+Q1.4) MX - mail exchange
+      	 - gets a list of mail exchange servers for the domain
+      NS - name server
+      	 - gets a list of DNS servers authoritative for the domain
+Q1.5) SOA  	  - start of authority
+      origin 	  - the start of the domain
+      mail addr   - mailing address for the domain admin
+      serial 	  - revision numbering system
+      refresh 	  - the seconds that the secondary DNS will poll the primary to see if the serial number has been increadsed.
+      retry 	  - time interval to reconnect with the Primary DNS
+      expire  	  - the time that the cached zone files will expire on the secondary DNS
+      minimum 	  - the minimum time taht the secondary DNS will start caching the zone file.
+
+Q1.6) yes it is possible to use nslookup to find the name for an IP, the name of 8.8.8.8 is google-public-dns-a.google.com
+
+===================
+
+Q2.1)	The first packets are the packets that establishes the connection destination
+Q2.1.1)	They're over UDP, the destination port number is 40512
+Q2.1.2)	The destinated ip addr is 169.235.30.11
+Q2.1.3)	From the url
+Q2.1.4)	The query is the information within the packet sent to the destination, in this case it was 'A' and "AAAA"
+Q2.1.5) The responses is the information within the packet sent back to us.
+Q2.1.6)	Each set are of different length 
+Q2.2)	These packets initializes the connection
+Q2.3)	A HTTP request is sent
+Q2.4)	
+Q2.5)
